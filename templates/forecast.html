@@ -1,0 +1,9 @@
+<html>
+<body>
+<h1>{{ timezone  }}</h1>
+<p>Average: {{ average }}</p>
+{% for d in c_data %}
+  <p> {{ d['temperature'] }} </p>
+{% endfor %}
+</body>
+</html>
